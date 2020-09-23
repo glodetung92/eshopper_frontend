@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db48e806-3ad0-4ce8-8a99-01be26dc8e42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_071355_add_column_delete_at_on_settings_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/components/feature_product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/feature_product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/components/category_tab.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/components/category_tab.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +152,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -150,12 +175,23 @@
       <updated>1600490622485</updated>
       <workItem from="1600490623973" duration="5731000" />
       <workItem from="1600608429289" duration="15673000" />
-      <workItem from="1600823472103" duration="1341000" />
+      <workItem from="1600823472103" duration="10325000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="280" key="#Composer" timestamp="1600491080444">
@@ -182,9 +218,9 @@
       <screen x="0" y="23" width="1244" height="777" />
     </state>
     <state width="1182" height="184" key="GridCell.Tab.0.right/0.23.1244.777@0.23.1244.777" timestamp="1600607281145" />
-    <state x="296" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1600831549384">
+    <state x="296" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1600849629485">
       <screen x="0" y="23" width="1244" height="777" />
     </state>
-    <state x="296" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1244.777@0.23.1244.777" timestamp="1600831549384" />
+    <state x="296" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1244.777@0.23.1244.777" timestamp="1600849629485" />
   </component>
 </project>

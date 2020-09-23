@@ -9,12 +9,14 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+
     public function index()
     {
         $categories = Category::where('parent_id', 0)->get();
         $sliders = Slider::latest()->get();
         $products = Product::latest()->take(6)->get();
         $productsRecommend = Product::latest('views_count', 'desc')->take(12)->get();
+
 
         return view('home.home', compact('sliders', 'categories', 'products', 'productsRecommend'));
     }
